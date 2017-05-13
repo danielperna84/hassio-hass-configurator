@@ -1,0 +1,20 @@
+{
+  "name": "HASS Configurator",
+  "version": "0.0.13",
+  "slug": "hass-configurator",
+  "description": "HASS Configurator - Browser based config file editor",
+  "startup": "after",
+  "boot": "auto",
+  "ports": {
+    "3218/tcp": 3218
+  },
+  "map": ["config", "ssl"],
+  "options": {
+    "hass_api": "http://172.17.0.1:8123/api/",
+    "hass_api_password": "secret"
+  },
+  "schema": {
+    "hass_api": "url",
+    "hass_api_password": "str"
+  }
+}
