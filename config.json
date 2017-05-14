@@ -1,6 +1,6 @@
 {
   "name": "HASS Configurator",
-  "version": "0.0.18",
+  "version": "0.1.0",
   "slug": "hass-configurator",
   "description": "HASS Configurator - Browser based config file editor. Use the panel_iframe component and point it to http://hassio.local:3218. More information about the available options are at https://github.com/danielperna84/hass-configurator",
   "startup": "after",
